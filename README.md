@@ -42,11 +42,6 @@ This project explores how to perform different types of joins in Tableau, utiliz
 2. **Modify Joins**: Experiment with different join types (Inner, Left, Right, Full Outer) to see how they impact the dataset.
 3. **Visualize Data**: Use the bar chart to explore the total salary per employee.
 
-## File Structure
-- `README.md`: This project description.
-- `data/`: Contains the Excel file with employee demographics, job titles, and salaries.
-- `tableau/`: Tableau workbook containing all joins and visualizations.
-
 ## Key Insights
 - Each type of join affects the dataset differently based on matching and non-matching records.
 - Joining on both `EmployeeID` and `EmployeeName` allows for a more comprehensive consolidation of employee data.
