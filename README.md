@@ -21,12 +21,17 @@ This project explores how to perform different types of joins in Tableau, utiliz
 ### 3. Employee Name Join
 - After performing joins based on `EmployeeID`, we used `EmployeeName` as a second join condition between the Demographics and Job Title tables.
 
+![joins](https://github.com/user-attachments/assets/4b8f5af9-6101-44f3-88e7-2bb7f4c9cf1c)
+
 ### 4. Final Join and Visualization
 - Combined the **Demographics**, **Job Title**, and **Salary** tables using an `EmployeeID` join to consolidate all data into a single view.
 - Visualized the total salary per employee by creating a bar chart:
   - **Columns**: `Name of Employee`
   - **Rows**: `Sum(Employee Salary)`
   - **Color Marks**: Used color to represent different salary sums.
+<a href="https://public.tableau.com/views/Employee_Joins/SalaryperEmployee?:language=en-US&publish=yes&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link">
+<img src="https://github.com/user-attachments/assets/d74652e7-7ecf-4c42-bbbc-170a66d84c45">
+</a>
 
 ## Tools Used
 - **Tableau**: For performing joins and visualizing the data.
